@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">淨灘GoGoGo</string>
+    <string name="title_home">首頁</string>
+    <string name="title_buildAndJoin">發起/參加</string>
+    <string name="title_shop">逛逛</string>
+    <string name="menu_account">我的資料</string>
+    <string name="menu_feedback">意見回饋</string>
+    <string name="menu_contribution">支持協會</string>
+    <string name="build_event">發起活動</string>
+    <string name="join_event">參加活動</string>
+    <string name="event_name">活動名稱 : </string>
+    <string name="event_time">活動時間 : </string>
+    <string name="event_location">活動地點 : </string>
+    <string name="feedback_subject">主旨 : </string>
+    <string name="feedback_opinion">意見 : </string>
+    <string name="login_email">信箱 : </string>
+    <string name="login_password">密碼 : </string>
+    <string name="login_title">登入</string>
+    //temp
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+</resources>

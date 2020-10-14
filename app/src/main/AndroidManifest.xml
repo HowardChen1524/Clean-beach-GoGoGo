@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a1061524_1061525_final">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAcy7ohD7dtAKQ4Q4XLBNWRoAYIqwEusWg" />
+        <activity
+            android:name=".main_page"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".shop_page"
+            android:label="淨攤商城"
+            android:parentActivityName=".main_page">
+        </activity>
+        <activity
+            android:name=".login_page"
+            android:label="淨灘GoGoGo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".register_page"
+            android:label="用戶註冊"
+            android:parentActivityName=".login_page">
+        </activity>
+        <activity
+            android:name=".ui.buildAndJoin.buildAndJoin_myEvent"
+            android:label="我的活動"
+            android:parentActivityName=".ui.buildAndJoin.buildAndJoinFragment">
+        </activity>
+        <activity
+            android:name=".ui.buildAndJoin.buildAndJoin_build"
+            android:label="發起活動"
+            android:parentActivityName=".ui.buildAndJoin.buildAndJoinFragment">
+        </activity>
+        <activity
+            android:name=".ui.buildAndJoin.buildAndJoin_join"
+            android:label="參加活動"
+            android:parentActivityName=".ui.buildAndJoin.buildAndJoinFragment">
+        </activity>
+        <activity
+            android:name=".ui.buildAndJoin.buildAndJoin_myEvent_unfinish"
+            android:label="未完成活動"
+            android:parentActivityName=".ui.buildAndJoin.buildAndJoin_myEvent">
+        </activity>
+        <activity
+            android:name=".ui.buildAndJoin.buildAndJoin_myEvent_unfinish_event"
+            android:label="未完成活動"
+            android:parentActivityName=".ui.buildAndJoin.buildAndJoin_myEvent_unfinish">
+        </activity>
+        <activity
+            android:name=".ui.buildAndJoin.buildAndJoin_myEvent_finish"
+            android:label="已完成活動"
+            android:parentActivityName=".ui.buildAndJoin.buildAndJoin_myEvent">
+        </activity>
+        <activity
+            android:name=".ui.buildAndJoin.buildAndJoin_myEvent_finish_event"
+            android:label="未完成活動"
+            android:parentActivityName=".ui.buildAndJoin.buildAndJoin_myEvent_finish">
+        </activity>
+        <activity
+            android:name=".ui.buildAndJoin.buildAndJoin_join_event"
+            android:label="活動詳情"
+            android:parentActivityName=".ui.buildAndJoin.buildAndJoin_join">
+        </activity>
+        <activity
+            android:name=".MapsActivity"
+            android:label="活動地點"
+            android:parentActivityName=".ui.buildAndJoin.buildAndJoin_join_event">
+        </activity>
+    </application>
+
+</manifest>
